@@ -35,7 +35,6 @@ To illustrate, the following is the calibration image 'camera_cal/calibration1.j
 Here is the same image undistored via camera calibration:
 ![undist_cal5](output_images/undistort_calibration.png)
 
-The final calibration matrices are saved in the pickle file 'calibrate_camera.p'
 
 ## Lane detection pipeline
 The following describes and illustrates the steps involved in the lane detection pipeline. For illustration, below is the original image we will use as an example:
