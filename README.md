@@ -42,12 +42,13 @@ The following describes and illustrates the steps involved in the lane detection
 
 
 ### Undistort image
-Using the camera calibration matrices in 'calibrate_camera.p', I undistort the input image. Below is the example image above, undistorted:
+Using the camera calibration matrices I undistort the input image. Below is the example image above, undistorted:
 
-![undist](output_images/undistort_test2.png)
+![undist](output_images/undistort_calibration.png)
 
 ### Thresholded binary image
-The next step is to create a thresholded binary image, taking the undistorted image as input. The goal is to identify pixels that are likely to be part of the lane lines. In particular, I perform the following:
+The goal is to identify pixels that are likely to be part of the lane lines. 
+I perform the following:
 
 ### Perspective transform
 
