@@ -1,5 +1,5 @@
 # Advanced Lane Detection
-![annotated](output_images/annotated_test2.png)
+
 ## Overview
 
 The following steps were performed for lane detection:
